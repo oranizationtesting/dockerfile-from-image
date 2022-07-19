@@ -1,4 +1,4 @@
-FROM mysql:5
+FROM webdevops/base:php:7.4.0
 MAINTAINER CenturyLink Labs <clt-labs-futuretech@centurylink.com>
 
 RUN apk --update add ruby-dev ca-certificates && \
